@@ -1,0 +1,42 @@
+.home-page {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    min-height: 80vh; 
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.vit-logo {
+    max-width: 200px; 
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.home-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.home-page p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    margin-top: 30px;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
