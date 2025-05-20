@@ -1,10 +1,15 @@
 Backend
-
+npm init -y
+npm install express body-parser cors mysql
 node server.js
 
 
-Frontend
-npm start
+for setting up Frontend
+node -v
+npm -v
+
+npm react-bootstrap bootstrap
+npm install axios
 
 SQL queries
 CREATE TABLE products (
