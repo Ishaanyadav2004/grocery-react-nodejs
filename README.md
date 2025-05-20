@@ -7,7 +7,7 @@ node server.js
 for setting up Frontend
 node -v
 npm -v
-
+npx create-react-app your-app-name
 npm react-bootstrap bootstrap
 npm install axios
 
@@ -40,10 +40,3 @@ INSERT INTO products (name, description, category, price, image_url, stock_quant
 ('Milk', 'Whole milk 1L', 'Dairy', 2.50, '/images/milk.jpg', 50),
 ('Bread', 'Whole wheat bread', 'Bakery', 2.00, '/images/bread.jpg', 75);
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CREATE TABLE Consumers (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,
-    registration_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
